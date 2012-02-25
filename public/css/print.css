@@ -1,0 +1,86 @@
+body, td#content, td#header {
+	background-color: #FFFFFF;
+	background-image: none;
+}
+
+div.actions, 
+div.actions_calendar, 
+div.content_title, 
+div.input_form, 
+div.login_area, 
+div.page_icon, 
+div.search_area, 
+div.text_search h2,
+form.pagination,
+input, 
+.no_print, 
+select, 
+span.breadcrumb, 
+table.calendar, 
+table.day, 
+table.pagination, 
+td#content_header, 
+td#content_left, 
+td#content_spacer, 
+td#footer, 
+td.quick_search,
+ul#menu,
+ul#pages {
+	display: none;
+}
+
+div.page_header {
+	left: 0px;
+	top: 17px;
+}
+
+div.page_header h2 {
+	font-size: 13pt;
+}
+
+div.text_search {
+	padding-left: 0px;
+}
+
+table.information {
+	margin-left: -5px;
+	margin-top: 10px;
+}
+
+table.list {
+	margin-left: -3px;
+	margin-top: 30px;
+}
+
+table.list tbody tr td {
+	height: 25px;
+}
+
+table.page {
+	left: 0px;
+	position: absolute;
+	top: 40px;
+}
+
+td#content_right {
+	border: 0px;
+	vertical-align: top;
+}
+
+td#content_right table tr td a {
+	color: #000000;
+	text-decoration: none;
+}
+
+td.dashboard, td#content_right .text {
+	padding-left: 0px;
+}
+
+td#header {
+	height: 22px;
+}
+
+td#header h2 {
+	font-size: 8pt;
+	padding-left: 0px;
+}

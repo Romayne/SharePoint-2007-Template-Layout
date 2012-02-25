@@ -1,0 +1,69 @@
+div.border_grey {
+	height: 40px;
+	overflow: visible;
+}
+
+div.preview_ajax {
+	height: 65px;
+	overflow: visible;
+}
+
+div.search_area {
+	margin-top: 13px;
+}
+
+div.search_area form input, div.text_search form input {
+	height: 19px;
+}
+
+div.search_area form input.button, div.text_search form input.button {
+	font-size: 0px;
+	display: inline;
+	line-height: 0px;
+	width: 21px;
+}
+
+div.text_search form {
+	padding-bottom: 15px;
+}
+
+.ie_spacer_20 {
+	width: 25px !important;
+}
+
+.margin_right_15 table {
+	width: 98%;
+}
+	
+table.pagination tr td {
+	padding: 5px;
+}
+
+td#content_right .text {
+	
+}
+
+td.content_area form {
+	margin: 0px;
+}
+
+td#content_left ul {
+	margin: 10px;
+	margin-left: 20px;
+}
+
+td#content_left ul li {
+	margin: 0px;
+	text-indent: 0px;
+}
+
+ul#menu, ul#pages {
+	margin: 0px;
+	margin-bottom: -20px;
+	margin-left: 5px;
+	margin-top: -5px;	
+}
+
+ul#pages {
+	margin-right: 6px;
+}
