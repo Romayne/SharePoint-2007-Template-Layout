@@ -3,12 +3,16 @@
 	{
 		/**
 		* Returns the breadcrumb array in human readable format
+		* Unfortunately we're displaying information so we'll echo some HTML
 		*
-		* @return Unfortunately we're displaying information so we'll return some HTML
+		* @return boolean
 		*/
-		public static function breadcrumbs()
+		public static function breadcrumbs($breadcrumbs = NULL)
 		{
-			global $viewBreadcrumbs;
+			$viewBreadcrumbs = $breadcrumbs;
+			
+			if ($breadcrumbs == NULL)
+				global $viewBreadcrumbs;
 			
 			if (isset($viewBreadcrumbs) && count($viewBreadcrumbs) > 0)
 			{
@@ -27,6 +31,10 @@
 					if (count($viewBreadcrumbs) != $crumbCount)
 						echo("</a>");
 				}
+				
+				return true;
 			}
+			
+			return false;
 		}
 	}  /*end of class Functions*/
